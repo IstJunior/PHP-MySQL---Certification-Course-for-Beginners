@@ -9,7 +9,26 @@
 <body>
     <?php
 
-    echo "Hola mundo";
+//STRING
+$x = "Hello World!";
+$y = 'Hello World!';
+echo $x;
+echo "<br>";
+echo $y;
+echo "<hr/>";
+
+//INTEGER 
+$num = 6000;
+var_dump($num);
+echo "<hr/>";
+
+//FLOAT 
+$num2 = 20.500;
+var_dump($num2);
+echo "<hr/>";
+
+//ARRAY
+
 
     ?>
 </body>
