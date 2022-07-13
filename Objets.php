@@ -24,7 +24,7 @@ class Person{
     }
 
     public function hello(){
-        return "I am". $this->firstname." ". $this->lastname." my age is: ".$this->age. " ";
+        return "I am ". $this->firstname." ". $this->lastname." my age is: ".$this->age. " ";
 
     }
 }
@@ -35,6 +35,7 @@ class Person{
     echo $person1->hello();
     echo "<br>";
     echo $person2->hello();
+    
     ?>
 </body>
 </html>
