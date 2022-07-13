@@ -23,7 +23,7 @@ var_dump($num);
 echo "<hr/>";
 
 //FLOAT 
-$num2 = 20.500;
+$num2 = 20.566;
 var_dump($num2);
 echo "<hr/>";
 
