@@ -13,28 +13,12 @@
     echo "Hello World";
     //COMENT LINE
     #COMENT LINE
-    /*  
-
-
-
-
-
-
-
-    
+    /*
     COMENT LINE BLOCK
     COMENT LINE BLOCK
     COMENT LINE BLOCK
     */
 
-
-
-
-
-
-
-
-    
     $x = 10 /* + 5 */ +20;
     echo $x;
     echo "<hr/>";
