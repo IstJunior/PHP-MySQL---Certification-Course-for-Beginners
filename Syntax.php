@@ -27,9 +27,6 @@
     echo "Text SAmple 2 <hr/>";
     ECho "Text SAmple 3 <hr/>";
 
-
-
-    
     $car = "Volvo";
     echo "My car is a".$car.  "<br>";
     echo "My car is a".$CAR.  "<br>";
