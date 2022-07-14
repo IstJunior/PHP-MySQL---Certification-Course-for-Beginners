@@ -8,7 +8,24 @@
 </head>
 <body>
     <?php
+//CASE - SENSITIVE
+define("WELCOME", "Hello my name is Jhon Smith");
 
-    ?>
+echo WELCOME;
+echo "<hr/>";
+
+//CASE - INSESITIVE
+define("welcome", "Hello my name is Jhon Smith");
+echo welcome;
+echo "<hr/>";
+
+define("CAR" ,"volvo");
+function mycar(){
+    return CAR;
+
+}
+echo CAR;
+
+?>
 </body>
 </html>
