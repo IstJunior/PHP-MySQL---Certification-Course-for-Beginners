@@ -159,7 +159,11 @@ echo "<hr/>"
 ?>
 <h2>Array Operators</h2>
 <?php
+$x = array("a" => "blue", "b" => "red");
+$y = array("c" => "pink", "d" => "Brown");
 
+print_r($x + $y);
+echo "<hr/>";
 ?>
 </body>
 
