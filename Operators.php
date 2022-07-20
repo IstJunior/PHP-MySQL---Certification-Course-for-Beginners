@@ -136,7 +136,7 @@
         echo "True";
         echo "<hr/>";
     }
-    
+
     $x = 200;
     $y = 300;
     if ($x !== 100) {
@@ -144,27 +144,65 @@
         echo "<hr/>";
     }
     ?>
-<h2>PHP String Operators</h2>
-<?php
-$x = "Hello";
-$y = "World";
-echo $x . $y;
-echo "<hr/>";
+    <h2>PHP String Operators</h2>
+    <?php
+    $x = "Hello";
+    $y = "World";
+    echo $x . $y;
+    echo "<hr/>";
 
-$x = "Jhon";
-$y = "Smith";
-$x .= $y;
-echo $x;
-echo "<hr/>"
-?>
-<h2>Array Operators</h2>
-<?php
-$x = array("a" => "blue", "b" => "red");
-$y = array("c" => "pink", "d" => "Brown");
+    $x = "Jhon";
+    $y = "Smith";
+    $x .= $y;
+    echo $x;
+    echo "<hr/>"
+    ?>
+    <h2>Array Operators</h2>
+    <?php
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("c" => "pink", "d" => "Brown");
 
-print_r($x + $y);
-echo "<hr/>";
-?>
+    print_r($x + $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x == $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x === $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x != $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x !== $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x <> $y);
+    echo "<hr/>";
+
+    $x = array("a" => "blue", "b" => "red");
+    $y = array("a" => "pink", "d" => "Brown");
+
+    var_dump($x !== $y);
+    echo "<hr/>";
+    ?>
+
+
 </body>
 
 </html>
