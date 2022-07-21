@@ -10,8 +10,10 @@
     
     <form action="" method="post">
         <input name="car" type="text">
+        <input type="submit" name="enviar" value="ENVIAR">
     </form>
     <?php
+    if(isset($_POST['enviar'])){
         $car = $_POST['car'];
         switch($car){
             case "volvo":
@@ -25,7 +27,8 @@
                 break;
             default:
                 echo "You don't drive";
-        }
+         }
+         }
     ?>
 </body>
 </html>
