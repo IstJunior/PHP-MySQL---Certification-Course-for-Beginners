@@ -34,13 +34,13 @@
         echo "F";
     } elseif ($x >= 50 && $x < 60) {
         echo "D";
-    }elseif ($x >= 60 && $x < 70){
+    } elseif ($x >= 60 && $x < 70) {
         echo "D";
-    }elseif($x >=70 && $x < 80){ 
+    } elseif ($x >= 70 && $x < 80) {
         echo "B";
-    }elseif($x >= 80 && $x < 90){
-        echo "A"; 
-    }else {
+    } elseif ($x >= 80 && $x < 90) {
+        echo "A";
+    } else {
         print("A+");
     }
 
