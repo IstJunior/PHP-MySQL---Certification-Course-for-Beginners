@@ -25,5 +25,24 @@
             $x++;
         }while($x < 10);
     ?>
+<hr>
+<h2>FOR LOOP</h2>
+<?php
+for($x = 0; $x <= 10; $x++){
+    echo $x;
+    echo "<br>";
+}
+?>
+<hr>
+<h2>FOREACH LOOP</h2>
+<?php
+$cars = array("volvo","bmw","honda","ford");
+
+foreach($cars as $value){
+    echo $value; 
+    echo "<br>";
+}
+?>
+<hr>
 </body>
 </html>
