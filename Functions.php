@@ -37,7 +37,6 @@
     myAge(70);
     myAge(18);
 
-    echo "<hr>";
 function add($x, $y){
     $z = $x + $y;
     return $z;
@@ -46,7 +45,7 @@ function add($x, $y){
 
 echo "1 + 2 = ".add(1,2)."<br>";
 echo "2 + 4 = ".add(2,4)."<br>";
-echo "5 + 5 = ".add(5,5)."<br>";
+echo "5 + 5 = ".add(5,5);
     ?>
 </body>
 
